@@ -18,9 +18,9 @@ I wanted a notification for every time a new SSH session has begun.
 Simply add the following lines to your `~/.bashrc`, `~/.zshrc` or other sourced file.
 ```sh
 # Discord webhook (put the webhook URL inside the quotes)
-WEBHOOK_URL=""
+export WEBHOOK_URL=""
 # Execute webhook
-curl -sL https://raw.githubusercontent.com/NurdTurd/shell-notifier/master/notify.sh | bash -s "$WEBHOOK_URL"
+curl -sL https://raw.githubusercontent.com/NurdTurd/shell-notifier/master/notify.sh | bash -s "$WEBHOOK_URL" &
 ```
 
 ## Usage
