@@ -27,6 +27,4 @@ export WEBHOOK_URL=""
 Simply open a shell!
 
 ### Example
-Discord webhook example:
-
 ![Screenshot](https://i.imgur.com/Dpp3qNW.png)
