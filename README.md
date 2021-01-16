@@ -20,7 +20,7 @@ Simply add the following lines to your `~/.bashrc`, `~/.zshrc` or other sourced 
 # Discord webhook (put the webhook URL inside the quotes)
 export WEBHOOK_URL=""
 # Execute webhook
-(curl -sL https://raw.githubusercontent.com/NurdTurd/shell-notifier/master/notify.sh | bash -s "$WEBHOOK_URL" &)
+(curl -sL https://raw.githubusercontent.com/fieu/shell-notifier/master/notify.sh | bash -s "$WEBHOOK_URL" &)
 ```
 
 ## Usage
